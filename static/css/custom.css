@@ -1,8 +1,11 @@
 html, body {
   background-color: #0064bd;
   color: white;
-  max-width: 1080px;
   margin: 0 auto;
+}
+
+body {
+  padding: 0 20px 20px 20px;
 }
 
 #share-link {
@@ -12,7 +15,7 @@ html, body {
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: calc(100vh - 20px);
 }
 
 .editor {

@@ -8,8 +8,9 @@ supported.
 
 ### Dockerfile
 
-```
-docker run -p 8080:8080 michaeljs1990/jsonnet-playground:1.0.0
+```sh
+docker build -t localhost/jsonnet-playground:latest .
+docker run --rm -p 8080:8080 localhost/jsonnet-playground:latest -in-memory
 ```
 
 See all available tags at https://hub.docker.com/repository/docker/michaeljs1990/jsonnet-playground
